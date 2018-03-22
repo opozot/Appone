@@ -12,4 +12,24 @@
         <welcome-file>default.htm</welcome-file>
         <welcome-file>default.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>Witaj swiecie</servlet-name>
+        <servlet-class>devcastzone.javaee.serwlety.WitajSwiecieSerwlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Witaj swiecie</servlet-name>
+        <url-pattern>/witaj</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Lista Uzytkownikow</servlet-name>
+        <servlet-class>devcastzone.javaee.serwlety.ListaUzytkownikSerwlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Lista Uzytkownikow</servlet-name>
+        <url-pattern>/drugi</url-pattern>
+        <url-pattern>/lista</url-pattern>
+    </servlet-mapping>
+    <listener>
+        <listener-class>devcastzone.javaee.sluchacze.SluchaczKontekstu</listener-class>
+    </listener>
 </web-app>
