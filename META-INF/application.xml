@@ -3,5 +3,10 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd"
              version="6">
-
+    <application-name>Appone</application-name>
+    <display-name>Appone</display-name>
+    <icon></icon>
+    <module>
+        <connector></connector>
+    </module>
 </application>
